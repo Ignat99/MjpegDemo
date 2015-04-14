@@ -13,4 +13,28 @@ public final class R {
     public static final class drawable {
         public static final int icon=0x7f020000;
     }
+    public static final class id {
+        public static final int refresh=0x7f050000;
+        public static final int toggleButton1=0x7f050001;
+    }
+    public static final class menu {
+        public static final int mainmenu=0x7f040000;
+    }
+    public static final class string {
+        public static final int app_name=0x7f030000;
+        /**   Menu items 
+  string name="settings">Settings</string 
+         */
+        public static final int refresh=0x7f030001;
+        public static final int toggleButton1=0x7f030002;
+        /**   NetworkActivity 
+  string name="page_title">Sunnyvale, California</string>
+    <string name="updated">Last updated:</string>
+    <string name="lost_connection">Lost connection.</string>
+    <string name="wifi_connected">Wi-Fi reconnected.</string>
+    <string name="connection_error">Unable to load content. Check your network connection.</string 
+ string name="xml_error">Error parsing XML, try again.</string 
+         */
+        public static final int xml_error=0x7f030003;
+    }
 }

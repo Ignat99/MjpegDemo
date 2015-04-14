@@ -30,7 +30,7 @@ public class MjpegInputStream extends DataInputStream {
 	
     public static MjpegInputStream read(String url) {
         HttpResponse res;
-        String username = (String) "artak";
+        String username = (String) "zoko";
         String password = (String) "123";
         
         DefaultHttpClient httpclient = new DefaultHttpClient();
