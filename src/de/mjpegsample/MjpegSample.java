@@ -26,7 +26,7 @@ import de.mjpegsample.MjpegView.MjpegView;
 
 public class MjpegSample extends Activity {
 	private MjpegView mv;
-	private String uriAPI = "http://192.168.1.33/led.cgi";
+	private String uriAPI = "http://192.168.1.34/led.cgi";
 	
 	public void onCreate(Bundle icicle) {
         super.onCreate(icicle);
@@ -82,10 +82,10 @@ public class MjpegSample extends Activity {
 	// startActivity(settingsActivity);
 	// return true;
 		case R.id.refresh:
-			loadPage();
+			toggleESP1();
 			return true;
 		case R.id.toggleButton1:
-			toggleESP1();
+			loadPage();
 //		loadPage();
 			return true;
 		default:
