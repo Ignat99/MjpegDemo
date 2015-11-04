@@ -22,8 +22,10 @@
 
     <!--  Menu items -->
     <!--  string name="settings">Settings</string -->
-    <string name="refresh">ON</string>
-    <string name="toggleButton1">OFF</string>
+    <string name="refresh">ON1</string>
+    <string name="toggleButton1">OFF1</string>
+    <string name="refresh2">ON2</string>
+    <string name="toggleButton2">OFF2</string>
 
     <!--  NetworkActivity -->
     <!--  string name="page_title">Sunnyvale, California</string>
@@ -33,5 +35,7 @@
     <string name="connection_error">Unable to load content. Check your network connection.</string -->
     <!-- string name="xml_error">Error parsing XML, try again.</string -->
     <string name="xml_error">Light switched.</string>
-
+	<string name="hello_world">Hello, Jose!</string>
+	<string name="send_toggleButton1">Relay1</string>
+	<string name="send_toggleButton2">Relay2</string>
 </resources>

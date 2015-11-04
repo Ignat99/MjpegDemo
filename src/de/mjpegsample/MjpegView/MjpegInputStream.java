@@ -30,8 +30,8 @@ public class MjpegInputStream extends DataInputStream {
 	
     public static MjpegInputStream read(String url) {
         HttpResponse res;
-        String username = (String) "zoko";
-        String password = (String) "123";
+        String username = (String) "cca.zoko";
+        String password = (String) "BLUs2k7n";
         
         DefaultHttpClient httpclient = new DefaultHttpClient();
         httpclient.getCredentialsProvider().setCredentials(new AuthScope(AuthScope.ANY_HOST, AuthScope.ANY_PORT), new UsernamePasswordCredentials(username, password));
